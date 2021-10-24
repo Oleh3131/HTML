@@ -1,0 +1,378 @@
+:root {
+    --light_blue: #3AC6EA;
+    --dark_blue: #102B3E;
+    --cream_white: #CED8E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_hooks {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--light_blue);
+    padding: 0 50px;
+    column-gap: 10px;
+}
+
+.side_hooks {
+    background-color: var(--dark_blue);
+    width: 25px;
+    height: 5px;
+    list-style: none;
+
+}
+
+.header {
+    padding: 10px 0 20px;
+    background-color: var(--cream_white);
+
+}
+
+.header_block {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+.header_left {
+    width: 150px;
+    height: 50px;
+    background-color: var(--dark_blue);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.header_right {
+    display: flex;
+}
+
+.right {
+    padding: 30px 0 10px;
+}
+
+.right a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .25s;
+}
+
+.right a:hover {
+    color: var(--light_blue)
+}
+
+.short_information {
+    padding: 0 50px;
+    background-color: var(--light_blue);
+}
+
+.divisions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information_title {
+    text-align: center;
+    padding-top: 75px;
+    color: azure;
+}
+
+.information_text {
+    text-align: center;
+    padding-top: 50px;
+    color: azure;
+    width: 60%;
+    line-height: 25px;
+}
+
+button {
+    margin: 50px 0;
+    width: 350px;
+    border-radius: 20px;
+    background-color: var(--dark_blue);
+    color: azure;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.section_goods {
+    padding: 100px;
+    background-color: #CED8E1;
+
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.goods_information {
+    border: 3px solid #3AC6EA;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    column-gap: 20px;
+}
+
+.description {
+    flex-grow: 1;
+}
+
+.good {
+    height: 250px;
+    background-color: #102B3E;
+    border-radius: 10px;
+}
+
+.description p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reflection {
+    padding: 50px;
+    background-color: #102B3E;
+}
+
+.basis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    width: 250px;
+    height: 250px;
+    background-color: #CED8E1;
+    border-radius: 50%;
+    margin: 50px 160px;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #3AC6EA;
+
+}
+
+.pictures_basis p {
+    text-align: center;
+    margin-top: 60px;
+    color: #fff;
+    line-height: 40px;
+    padding: 50px 45px 50px;
+}
+
+.hardcore_main {
+    background-color: #CED8E1;
+}
+
+.hardcore_title {
+    display: flex;
+    justify-content: center;
+    color: var(--dark_blue);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 30px;
+}
+
+.hardcore_one__parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.hardcore_main {
+    padding: 0 100px;
+}
+
+.pat_picture {
+    width: 400px;
+    height: 250px;
+    background-color: var(--dark_blue);
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.part_main {
+    border: 5px solid var(--light_blue);
+    width: 460px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.variet_one {
+    width: 60px;
+    height: 10px;
+    background-color: var(--dark_blue);
+}
+
+.two_v {
+    width: 30px;
+    height: 10px;
+    background-color: var(--dark_blue);
+}
+
+.two_varieties {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.variet_two {
+    display: flex;
+    column-gap: 10px;
+}
+
+h3 {
+    padding: 50px 25px;
+    font-size: 20px;
+    color: var(--dark_blue);
+}
+
+nav {
+    padding: 0 25px 50px;
+    color: var(--dark_blue);
+    text-align: start;
+    line-height: 50px;
+}
+
+.blo_one {
+    width: 65px;
+    height: 30px;
+    background-color: var(--dark_blue);
+    border-radius: 10px;
+
+}
+
+.round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--dark_blue);
+}
+
+.lower_blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-top: 5px solid var(--light_blue);
+}
+
+.three_blocks {
+    display: flex;
+    column-gap: 10px;
+}
+
+.blue_and_black {
+    padding: 100px 100px;
+}
+
+.black {
+    background-color: var(--dark_blue);
+}
+
+.news {
+    padding: 100px 0 50px 100px;
+    color: var(--light_blue);
+}
+
+.characteristics {
+    color: var(--light_blue);
+    padding: 50px 0 50px 100px;
+    text-align: start;
+    line-height: 40px;
+}
+
+.registration {
+    padding: 50px 0 50px 100px;
+}
+
+.registration3 {
+    width: 200px;
+    height: 50px;
+    background-color: var(--light_blue);
+    border-radius: 20px;
+}
+
+
+.blue {
+    background-color: var(--light_blue);
+}
+
+.news2 {
+    padding: 100px 0 50px 100px;
+    color: var(--dark_blue);
+}
+
+.characteristics2 {
+    color: var(--dark_blue);
+    padding: 50px 0 50px 100px;
+    text-align: start;
+    line-height: 40px;
+}
+
+.registration2 {
+    padding: 50px 0 50px 100px;
+}
+
+.registration4 {
+    width: 200px;
+    height: 50px;
+    background-color: var(--dark_blue);
+    border-radius: 20px;
+}
+
+.couple {
+    display: flex;
+}
+
+.main_down {
+    height: 200px;
+    background-color: var(--dark_blue);
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark_blue);
+}
+
+.coni {
+    width: 50px;
+    height: 50px;
+    background-color: var(--cream_white);
+    border-radius: 10px;
+
+}
+
+.cons {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 50px 0 50px;
+    border-bottom: 5px solid var(--light_blue);
+}
