@@ -1,0 +1,121 @@
+@media screen and (max-width: 360px) {
+    .right {
+        display: none;
+    }
+
+    .header_left {
+        display: none;
+    }
+
+    .menu_click {
+        display: block;
+    }
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+    .products {
+        flex-direction: column;
+
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .section_goods {
+        padding: 10px;
+    }
+
+    button {
+        width: 250px;
+    }
+
+    .basis {
+        flex-direction: column;
+    }
+
+    .reflection {
+        padding: 10px;
+    }
+
+    .picture {
+        margin: 60px 20px 40px 40px;
+    }
+
+    h2.hardcore_title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hardcore_one__parts {
+        flex-direction: column;
+    }
+
+    .hardcore_main {
+        padding: 0 10px;
+    }
+
+    .part_main {
+        width: 300px;
+    }
+
+    .pat_picture {
+        width: 250px;
+        height: 400px;
+    }
+
+    .blue_and_black {
+        padding: 30px 10px;
+    }
+
+
+    .couple {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    h2.news {
+        padding: 30px 20px 0 20px;
+    }
+
+
+    p.characteristics {
+        padding: 20px 20px 20px 20px;
+
+    }
+
+    .registration {
+        padding: 20px 60px 20px 60px;
+    }
+
+    h2.news2 {
+        padding: 30px 20px 0 20px;
+    }
+
+    p.characteristics2 {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .registration2 {
+        padding: 20px 60px 20px 60px;
+    }
+.up {
+    position: fixed;
+    bottom: 250px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff0900;
+    border-radius: 50%;
+}
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
