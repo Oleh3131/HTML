@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+    .header_icon {
+        display: none;
+    }
+
+    .asosiattion {
+        display: none;
+    }
+
+    .main_header__emblem > img {
+        width: 40px;
+        height: 30px;
+
+    }
+
+    .main_header__title {
+        padding: 20px 20px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .our_house > h2 {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .our_house > h1 {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .our_house > p {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .our_house {
+        width: 280px;
+        padding-top: 250px;
+    }
+    .our_house>p::before, .our_house>p::after {
+        display: none;
+    }
+.atmosfera {
+    flex-direction: column;
+    row-gap: 20px;
+}
+    .atmosfera, .box {
+        width: 280px;
+    }
+}
