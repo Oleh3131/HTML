@@ -73,4 +73,15 @@
         flex-direction: column;
         row-gap: 25px;
     }
+    .navbar-brand>img {
+        margin: 0;
+        padding: 0;
+    }
+
+    a.navbar-brand {
+        margin: 0;
+    }
+    .col-xxl-6 > p::before {
+        width: 0;
+    }
 }
