@@ -1,0 +1,89 @@
+@media screen and (max-width: 360px) {
+    .main_information-left > h1 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        margin: 20px 0 10px;
+        text-align: center;
+    }
+
+    button.navbar-toggler.collapsed {
+        border: 2px solid #2E75FF;
+    }
+
+    .main_information-right > img {
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+
+
+    .main_information {
+        padding: 0 20px;
+    }
+
+    .row_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .add_information-left > img {
+        width: 410px;
+        height: 230px;
+    }
+
+    .add_information-right > h1 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #1652AC;
+    }
+
+    .add_information-right > p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 26px;
+        color: #45494F;
+        width: 340px;
+        height: 200px;
+        margin: 0 10px;
+    }
+
+    .card>.row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 360px;
+    }
+
+    .card-body {
+        margin: 0;
+        width: 360px;
+    }
+
+    .card-text, .card-text_two {
+        font-size: 16px;
+        line-height: 32px;
+        color: #FBFDFF;
+        width: 300px;
+    }
+
+    .card-body > h5 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 40px;
+        color: #FBFDFF;
+    }
+
+    .col-5.description {
+        width: 360px;
+    }
+
+    .col-7.description {
+        width: 360px;
+    }
+
+}
