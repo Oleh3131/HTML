@@ -323,7 +323,7 @@ a.header_city, a.header_city_two, a.header_city_three {
 .carousel-item {
     width: 1010px;
     height: 400px;
-    background:url("../figma_img/slide.png") no-repeat;
+    background: url("../figma_img/slide.png") no-repeat;
 }
 
 .carousel-caption {
@@ -331,6 +331,7 @@ a.header_city, a.header_city_two, a.header_city_three {
     justify-content: space-between;
     align-items: center;
 }
+
 .main_info_block {
     display: flex;
     flex-direction: column;
@@ -386,65 +387,75 @@ a.header_city, a.header_city_two, a.header_city_three {
     display: flex;
     column-gap: 10px;
 }
+
 .main_equipment_description {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
+
 .equipment_description_first, .equipment_description_second {
     background: #F4F5FA;
     border-radius: 10px;
     height: 190px;
 }
-.stock>h2 {
+
+.stock > h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
     margin: 10px 0 10px 10px;
 }
-.clutch>a {
+
+.clutch > a {
     width: 80px;
     height: 74px;
 
 }
-.disk>a {
+
+.disk > a {
     width: 96px;
     height: 75px;
 
 }
-.clutch_header>h2, .disk_header>h2 {
+
+.clutch_header > h2, .disk_header > h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
     color: #0A1A2C;
 }
-.clutch_header>p, .disk_header>p {
+
+.clutch_header > p, .disk_header > p {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #525252;
 }
-.clutch_prise>h3, .disk_prise>h3 {
+
+.clutch_prise > h3, .disk_prise > h3 {
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
     color: #FFB800;
 }
+
 .union_one, .union_two {
     display: flex;
     margin-left: 10px;
 }
+
 .clutch_description, .disk_description {
     margin-left: 10px;
 }
 
-.chipping, .clutch_prise, .disk_prise{
+.chipping, .clutch_prise, .disk_prise {
     display: flex;
     align-items: end;
 }
 
-.clutch_prise>h4, .disk_prise>h4 {
+.clutch_prise > h4, .disk_prise > h4 {
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
@@ -462,6 +473,74 @@ a.header_city, a.header_city_two, a.header_city_three {
     margin-left: 60px;
 
 }
+
 .clutch_prise, .disk_prise {
     column-gap: 10px;
+}
+
+.oil_and_radiators {
+    padding-top: 20px;
+}
+.carousel-inner_next {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.carousel-item_next_active {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 190px;
+}
+.main_maslo>img {
+    width: 154px;
+    height: 202px;
+}
+.main_filtr>img{
+    width: 163px;
+    height: 202px;
+}
+.main_radiator>img{
+    width: 207px;
+    height: 197px;
+}
+.new_product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start ;
+    margin:40px;
+}
+.new_product>h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+}
+.new_product>p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.btn.btn-primary.next {
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+span.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
 }
