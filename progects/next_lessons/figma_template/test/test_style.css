@@ -321,12 +321,147 @@ a.header_city, a.header_city_two, a.header_city_three {
 }
 
 .carousel-item {
-
+    width: 1010px;
+    height: 400px;
+    background:url("../figma_img/slide.png") no-repeat;
 }
 
 .carousel-caption {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.main_info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 
+.slide_new > img {
+    width: 400px;
+    height: 340px;
+}
+
+.main_info_block > h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.main_info_block > h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.price > h4 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color: #005BB9;
+}
+
+.price > h5 {
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #abaeb7;
+}
+
+.btn.bock > img {
+    margin-right: 5px;
+}
+
+.price {
+    display: flex;
+    align-items: end;
+    column-gap: 10px;
+    padding-bottom: 10px;
+}
+
+.main_slide {
+    display: flex;
+    column-gap: 10px;
+}
+.main_equipment_description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.equipment_description_first, .equipment_description_second {
+    background: #F4F5FA;
+    border-radius: 10px;
+    height: 190px;
+}
+.stock>h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin: 10px 0 10px 10px;
+}
+.clutch>a {
+    width: 80px;
+    height: 74px;
+
+}
+.disk>a {
+    width: 96px;
+    height: 75px;
+
+}
+.clutch_header>h2, .disk_header>h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+.clutch_header>p, .disk_header>p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.clutch_prise>h3, .disk_prise>h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.union_one, .union_two {
+    display: flex;
+    margin-left: 10px;
+}
+.clutch_description, .disk_description {
+    margin-left: 10px;
+}
+
+.chipping, .clutch_prise, .disk_prise{
+    display: flex;
+    align-items: end;
+}
+
+.clutch_prise>h4, .disk_prise>h4 {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.clutch_buy, .disk_buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    background: #005BB9;
+    border-radius: 6px;
+    margin-left: 60px;
+
+}
+.clutch_prise, .disk_prise {
+    column-gap: 10px;
 }
