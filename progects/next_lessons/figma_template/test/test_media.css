@@ -257,8 +257,20 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        row-gap: 10px;
+        row-gap: 30px;
         padding: 20px 10px;
+    }
+
+    .show_more {
+        margin-top: 50px;
+    }
+
+    .main_first_counter {
+        box-shadow: 4px 4px 8px 8px rgba(34, 60, 80, 0.2);
+    }
+
+    .choice {
+        margin: 0 10px 10px 10px;
     }
 
     .current_promotions {
@@ -268,38 +280,55 @@
         padding: 10px;
     }
 
+    .product_cost_price, .product_cost_price_two {
+        margin: 0 10px 10px 10px;
+    }
+
     .main_equipment_description {
         display: none;
     }
 
+    .main_first_counter > h3 {
+        margin: 0 10px 10px 10px;
+    }
+.ratings_and_reviews {
+    margin: 0 10px 10px 10px;
+}
     .carousel-item_next_active {
         width: 100px;
         height: 80px;
     }
-.main_maslo>img, .main_filtr>img {
-    width: 70px;
-    height: 70px;
-}
-.new_product>h3 {
-    font-size: 10px;
-    line-height: 14px;
-}
-    .new_product>p {
-        font-size: 5px;
-        line-height: 10px;
-    }
-    .btn.btn-primary.next {
-        width: 50px;
-        height: 10px;
-        font-size: 5px;
-        line-height: 10px;
-    }
-    .main_radiator>img {
+
+    .carousel-item_next_active_two, .carousel-item_next_active_three {
         display: none;
     }
-    .types_of_goods, .new_promotions, .current_assortment{
+
+    .carousel-item_next_active_one {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .new_product {
+        margin: 0;
+    }
+
+    .main_maslo > img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .types_of_goods, .new_promotions, .current_assortment {
         height: 40px;
         font-size: 16px;
         line-height: 18px;
+    }
+    .carousel-item {
+        float: none;
+        transition: 0.5s;
+        margin-right: 0;
+    }
+    .carousel-inner {
+        height: 220px;
     }
 }
